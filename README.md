@@ -193,3 +193,11 @@ static_sites:
   name: frontend
   source_dir: frontend
 ```
+
+## Contact
+
+If you wish to learn more about DigitalOcean's services, you are welcome to reach out to the sales team at sales@digitalocean.com. A global team of talented engineers will be happy to provide assistance.
+
+## License
+
+This Kubernetes controller, associated scripts and documentation in this project are released under the MIT License.

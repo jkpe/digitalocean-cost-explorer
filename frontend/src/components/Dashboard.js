@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { invoiceService } from '../services/api';
 import CostBreakdown from './CostBreakdown';
+import Footer from './Footer';
 import Papa from 'papaparse';
 
 const Dashboard = () => {
@@ -154,15 +155,7 @@ const Dashboard = () => {
         ) : null}
       </div>
       
-      <footer className="mt-8 mb-8 pb-6 text-center text-sm text-gray-500 px-4 mx-auto" style={{ maxWidth: '39rem' }}>
-        <p>
-          Version 0.2.0-beta<br />
-          <a href="https://forms.gle/q8FdoHWSVC4k4xPD7" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Submit feedback</a><br />
-          <br />
-          This is <strong>not</strong> an official DigitalOcean app<br />
-          Thoughtfully crafted by <a href="https://www.jackpearce.co.uk/" target="_blank" rel="noopener noreferrer"><strong>Jack Pearce</strong></a>, I hope you found it useful ❤️.
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 };

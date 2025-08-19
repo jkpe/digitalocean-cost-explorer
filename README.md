@@ -2,7 +2,8 @@
 
 A web application that allows DigitalOcean users to analyze their costs by service type and date.
 
-![Untitled 2](https://github.com/user-attachments/assets/691c1015-598a-45dc-b4bb-23e4ca356af4)
+<img width="1602" height="1117" alt="do-cost-explorer" src="https://github.com/user-attachments/assets/151b1a0b-db2a-45ce-9f0c-cfec16e88a22" />
+
 
 ## Overview
 

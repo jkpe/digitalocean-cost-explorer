@@ -98,10 +98,9 @@ REACT_APP_API_URL=http://localhost:5000/api
 
 ## Deployment
 
-- The backend can be deployed to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/).
-- The frontend can be deployed to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/), [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces/).
+- The frontend & backend can be deployed to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/).
 - Remember to update the environment variables for production
-- Ensure Redis is available in your production environment
+- Ensure [Valkey](https://docs.digitalocean.com/products/databases/valkey/) is available in your production environment
 
 ### App Platform Example Deployment
 
@@ -200,4 +199,4 @@ If you wish to learn more about DigitalOcean's services, you are welcome to reac
 
 ## License
 
-This Kubernetes controller, associated scripts and documentation in this project are released under the MIT License.
+This project is released under the MIT License.
